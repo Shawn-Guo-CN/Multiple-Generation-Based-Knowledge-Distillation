@@ -60,7 +60,7 @@ To better understand the paper listed in the following sections, we may need som
 
 ### Pesudo Labels
 
-> 
+> [TODO: explain why Pesudo Labels is related to understanding of KD]
 
 -	Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks. Dong-Hyun Lee. 2013.
 -	Meta Pseudo Labels. Hieu Pham, Zihang Dai, Qizhe Xie, Minh-Thang Luong, Quoc V. Le. 2020.
@@ -77,5 +77,7 @@ To better understand the paper listed in the following sections, we may need som
 
 ### KD for Reinforcement Learning
 
-> 
+> Since the key element of RL is the distribution of trajectories and their corresponding returns, the standard KD methods can not be directly applied in RL as well. Besides, the fact that RL follows the Markov property also introduces new challenges into the KD for RL.
 
+-	Policy Distillation. Andrei A. Rusu, Sergio Gomez Colmenarejo, Caglar Gulcehre, Guillaume Desjardins, James Kirkpatrick, Razvan Pascanu, Volodymyr Mnih, Koray Kavukcuoglu, Raia Hadsell. 2016
+-	Exploration by Random Network Distillation. Yuri Burda, Harrison Edwards, Amos Storkey, Oleg Klimov. 2018.
